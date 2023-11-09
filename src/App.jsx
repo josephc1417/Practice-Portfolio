@@ -1,12 +1,19 @@
 import Navbar from "./Components/Navbar.jsx";
+import Hero from "./Components/Hero.jsx";
+import Skills from "./Components/Skills.jsx";
+import About from "./Components/About.jsx";
+import Projects from "./Components/Projects.jsx";
 
 
 const App = () => {
     return (
-        <di>
-            <h1 className={'text-emerald-600 underline text-center'}>App</h1>
+        <>
             <Navbar />
-        </di>
+            <Hero />
+            <Skills />
+            <About />
+            <Projects />
+        </>
     )
 }
 export default App
